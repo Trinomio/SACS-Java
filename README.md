@@ -19,13 +19,13 @@ from the main project folder (sabreapicodesamples).
 ## Running the application
 The application can be run in three different ways.
 
-- Using IDE - After importing the project with all modules to the IDE, one can run the application with FlowTriggerApplication class from soaptrigger module.
+- Using IDE - After importing the project with all modules to the IDE, one can run the application with FlowTriggerApplication class from flowtrigger module.
 - Using commandline java - run the project by executing command
 `java -jar flowtrigger-0.0.1-SNAPSHOT.jar`
-from the soaptrigger/target folder
+from the flowtrigger/target folder
 - Using Maven – run
 `mvn spring-boot:run`
-command from the soaptrigger folder.
+command from the flowtrigger folder.
 
 After application starts, it fills the pool with session that will be used for workflows. The policy here is that one workflow uses the same session throughout the whole process, and after that the session is returned to the pool. If more workflows than the size of the pool are started simultaneously, some of them wait till the running workflows finish and return the session to the pool.
 
