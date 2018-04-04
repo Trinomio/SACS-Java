@@ -4,7 +4,7 @@ The Sabre API Code Samples project has been created to give developers creating 
 
 - TravelItineraryRead – version 3.6.0
 - PassengersDetails – version 3.2.0
-- BargainFinderMax – version 1.9.2
+- BargainFinderMax – version 4.1.0
 - EnhancedAirBook – version 3.2.0
 
 ## Building and configuring the application
