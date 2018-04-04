@@ -46,7 +46,6 @@
 						</goals>
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
-							<forceRegenerate>true</forceRegenerate>
 							<!-- <schemaDirectory>${project.parent.basedir}/target/</schemaDirectory> -->
 							<generateDirectory>${project.build.directory}/generated-sources/xjc-1</generateDirectory>
 							<generatePackage>com.sabre.api.sacs.contract.session</generatePackage>
@@ -67,7 +66,6 @@
 						</goals>
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
-							<forceRegenerate>true</forceRegenerate>
 							<!-- <schemaDirectory>${project.parent.basedir}/target/</schemaDirectory> -->
 							<generateDirectory>${project.build.directory}/generated-sources/xjc-1</generateDirectory>
 							<generatePackage>com.sabre.api.sacs.contract.session.ping</generatePackage>
@@ -88,7 +86,6 @@
 						</goals>
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
-							<forceRegenerate>true</forceRegenerate>
 							<!-- <schemaDirectory>${project.parent.basedir}/target/</schemaDirectory> -->
 							<generateDirectory>${project.build.directory}/generated-sources/xjc-1</generateDirectory>
 							<generatePackage>com.sabre.api.sacs.contract.transaction</generatePackage>
@@ -105,7 +102,6 @@
 						</goals>
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
-							<forceRegenerate>true</forceRegenerate>
 							<!-- <schemaDirectory>${project.parent.basedir}/target/</schemaDirectory> -->
 							<generateDirectory>${project.build.directory}/generated-sources/xjc-1</generateDirectory>
 							<generatePackage>com.sabre.api.sacs.contract.soap</generatePackage>
@@ -134,7 +130,6 @@
 						</goals>
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
-							<forceRegenerate>true</forceRegenerate>
 							<!-- <schemaDirectory>${project.parent.basedir}/target/</schemaDirectory> -->
 							<generateDirectory>${project.build.directory}/generated-sources/xjc-3</generateDirectory>
 							<generatePackage>com.sabre.api.sacs.contract.travelitinerary</generatePackage>
@@ -150,7 +145,6 @@
 						</goals>
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
-							<forceRegenerate>true</forceRegenerate>
 <!-- 							<bindingDirectory>**/custom-bindings</bindingDirectory> -->
 							<bindingIncludes>
 								<include>**/passenger-details-custom-binding.jxb</include>
@@ -170,7 +164,6 @@
 						</goals>
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
-							<forceRegenerate>true</forceRegenerate>
 							<bindingIncludes>
 								<include>**/bargain-finder-max-custom-binding.jxb</include>
 							</bindingIncludes>
@@ -191,7 +184,6 @@
                         <goals><goal>generate</goal></goals>
                         <configuration>
                             <schemaLanguage>XMLSCHEMA</schemaLanguage>
-                            <forceRegenerate>true</forceRegenerate>
                             <bindingIncludes>
                                 <include>**/enhanced-airbook-custom-binding.jxb</include>
                             </bindingIncludes>
