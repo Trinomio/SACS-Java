@@ -3,7 +3,7 @@
 <wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd1="http://www.opentravel.org/OTA/2003/05" xmlns:tns="https://webservices.sabre.com/websvc" xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext" targetNamespace="https://webservices.sabre.com/websvc">
 	<wsdl:types>
 		<xs:schema>
-			<xs:import namespace="http://www.opentravel.org/OTA/2003/05" schemaLocation="BargainFinderMaxRQRS_v1-9-2.xsd"/>
+			<xs:import namespace="http://www.opentravel.org/OTA/2003/05" schemaLocation="BargainFinderMaxRQRS_v4-1-0.xsd"/>
 			<xs:import namespace="http://www.ebxml.org/namespaces/messageHeader" schemaLocation="msg-header-2_0.xsd"/>
 			<xs:import namespace="http://schemas.xmlsoap.org/ws/2002/12/secext" schemaLocation="wsse.xsd"/>
 		</xs:schema>

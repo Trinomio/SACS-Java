@@ -164,19 +164,11 @@
 						</goals>
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
-							<bindingIncludes>
-								<include>**/bargain-finder-max-custom-binding.jxb</include>
-							</bindingIncludes>
 							<generateDirectory>${project.build.directory}/generated-sources/xjc-5</generateDirectory>
 							<generatePackage>com.sabre.api.sacs.contract.bargainfindermax</generatePackage>
 							<schemaIncludes>
 								<include>**/wsdls/BargainFinderMaxRQ/*RQRS*.xsd</include>
 							</schemaIncludes>
-							<schemaExcludes>
-								<exclude>**/wsse.xsd</exclude>
-								<exclude>**/wsse2.xsd</exclude>
-								<exclude>**/msg-header-2_0.xsd</exclude>
-							</schemaExcludes>
 						</configuration>
 					</execution>
 					<execution>
