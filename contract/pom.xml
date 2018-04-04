@@ -67,7 +67,7 @@
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
 							<!-- <schemaDirectory>${project.parent.basedir}/target/</schemaDirectory> -->
-							<generateDirectory>${project.build.directory}/generated-sources/xjc-1</generateDirectory>
+							<generateDirectory>${project.build.directory}/generated-sources/xjc-2</generateDirectory>
 							<generatePackage>com.sabre.api.sacs.contract.session.ping</generatePackage>
 							<schemaIncludes>
 								<include>**/wsdls/OTA_PingRQ/*RQRS.xsd</include>
@@ -87,7 +87,7 @@
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
 							<!-- <schemaDirectory>${project.parent.basedir}/target/</schemaDirectory> -->
-							<generateDirectory>${project.build.directory}/generated-sources/xjc-1</generateDirectory>
+							<generateDirectory>${project.build.directory}/generated-sources/xjc-7</generateDirectory>
 							<generatePackage>com.sabre.api.sacs.contract.transaction</generatePackage>
 							<schemaIncludes>
 								<include>**/wsdls/IgnoreTransactionLLSRQ/*RQRS.xsd</include>
@@ -103,7 +103,7 @@
 						<configuration>
 							<schemaLanguage>XMLSCHEMA</schemaLanguage>
 							<!-- <schemaDirectory>${project.parent.basedir}/target/</schemaDirectory> -->
-							<generateDirectory>${project.build.directory}/generated-sources/xjc-1</generateDirectory>
+							<generateDirectory>${project.build.directory}/generated-sources/xjc-8</generateDirectory>
 							<generatePackage>com.sabre.api.sacs.contract.soap</generatePackage>
 							<schemaIncludes>
 								<include>**/common_schemas/wsse.xsd</include>
